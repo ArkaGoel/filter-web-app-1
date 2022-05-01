@@ -1,0 +1,28 @@
+body{
+    background-image: url('background.jpg');
+}
+h1{
+    color: red;
+    font-family: 'Bebas Neue';
+    text-shadow: 5px 5px 5px black;
+}
+h2{
+  color: aqua;
+  font-family: 'Ms Madi';
+}
+label{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+}
+#snap_take:hover{
+  background-color: aqua;
+}
+canvas{
+    animation-name: canvas_anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes canvas_anim{
+  from {box-shadow: 1px 5px 38px red;}
+  to {box-shadow: 1px 5px 40px aqua;}
+}
